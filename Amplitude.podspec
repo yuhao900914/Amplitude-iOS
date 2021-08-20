@@ -1,13 +1,13 @@
 amplitude_version = "8.3.0" # Version is managed automatically by semantic-release, please don't change it manually
 
 Pod::Spec.new do |s|
-  s.name                   = "Amplitude"
+  s.name                   = "AlyssaTestAmplitude"
   s.version                = amplitude_version 
-  s.summary                = "Amplitude iOS/tvOS/macOS SDK."
-  s.homepage               = "https://amplitude.com"
+  s.summary                = "Alyssa Test Amplitude iOS SDK."
+  s.homepage               = "https://github.com/yuhao900914/Amplitude-iOS.git"
   s.license                = { :type => "MIT" }
-  s.author                 = { "Amplitude" => "dev@amplitude.com" }
-  s.source                 = { :git => "https://github.com/amplitude/Amplitude-iOS.git", :tag => "v#{s.version}" }
+  s.author                 = { "AlyssaTestAmplitude" => "yuhao900914@gmail.com" }
+  s.source                 = { :git => ""https://github.com/yuhao900914/Amplitude-iOS.git, :tag => "v#{s.version}" }
   s.requires_arc           = true
   s.library                = 'sqlite3.0'
 
